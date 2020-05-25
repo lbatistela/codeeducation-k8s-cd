@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-sum-service
+spec:
+  ports:
+    - port: 8000
+  selector:
+    app: go-sum
+  # Para que o service seja acessado apenas pela resolução de nome: go-sum-service
+  clusterIP: None
