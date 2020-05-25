@@ -11,5 +11,5 @@ func main() {
 }
 
 func SumServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Code.education Rocks!\n5 + 5 = %v", soma(5, 5))
+	fmt.Fprintf(w, "Code.education Rocks!\n40 + 2 = %v", soma(40, 2))
 }
