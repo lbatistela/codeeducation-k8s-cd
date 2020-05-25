@@ -29,4 +29,4 @@ steps:
       - "k8s/deployment-new.yaml"
     env:
       - "CLOUDSDK_COMPUTE_ZONE=us-central1-c"
-      - "CLOUDSDK_CONTAINER_CLUSTER=cluster-codeeducation-k8s-cd"
+      - "CLOUDSDK_CONTAINER_CLUSTER=cluster-go-sum"
